@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>EC Mayhem Hockey League</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="ecm-logo-clear2.png" class="site-logo" alt="ECM Logo" onerror="this.style.display='none'">
+      <h1>EC Mayhem Hockey League</h1>
+    </div>
+    <nav class="site-nav">
+      <a href="#standings">Standings</a>
+      <a href="#leaders">League Leaders</a>
+      <a href="#teams">Teams</a>
+      <a href="#schedule">Schedule</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="standings">
+      <div class="standings-header">
+        <h2>Standings</h2>
+        <div class="season-switch">
+          <label for="season-select" class="small-muted">Season:</label>
+          <select id="season-select"></select>
+        </div>
+      </div>
+      <div class="card">
+        <table id="standings-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Team</th>
+              <th>GP</th>
+              <th>W</th>
+              <th>L</th>
+              <th>OTL</th>
+              <th>PTS</th>
+              <th>GF</th>
+              <th>GA</th>
+              <th>GD</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="leaders">
+      <h2>League Leaders</h2>
+      <div class="leaders-grid card">
+        <div>
+          <h3>Goals</h3>
+          <ol id="goals-leaders"></ol>
+        </div>
+        <div>
+          <h3>Assists</h3>
+          <ol id="assists-leaders"></ol>
+        </div>
+        <div>
+          <h3>Points</h3>
+          <ol id="points-leaders"></ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="teams">
+      <h2>Teams</h2>
+      <div id="teams-grid" class="teams-grid"></div>
+    </section>
+
+    <section id="schedule">
+      <h2>Schedule</h2>
+      <p id="schedule-note" class="small-muted"></p>
+      <div class="card schedule-wrap">
+        <table id="schedule-table">
+          <thead><tr></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>Last Update : 11/12/2026</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

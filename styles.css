@@ -1,0 +1,40 @@
+/* Simple responsive styles for the single-page league site */
+:root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#f59e0b;--text:#e6eef6}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:Inter,system-ui,Segoe UI,Arial;background:linear-gradient(180deg,#071027 0%,#0b1220 100%);color:var(--text);-webkit-font-smoothing:antialiased}
+.container{max-width:1100px;margin:24px auto;padding:16px}
+.site-header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:20px 16px}
+.site-header h1{margin:0;font-size:1.4rem}
+.site-nav a{color:var(--muted);margin-left:12px;text-decoration:none}
+
+.standings-header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.season-switch{display:flex;align-items:center;gap:8px}
+.season-switch select{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text);padding:6px 8px;border-radius:6px}
+
+.trophy{height:18px;width:auto;vertical-align:middle;margin-left:6px;filter:drop-shadow(0 1px 0 rgba(0,0,0,0.4))}
+.captain{height:16px;width:auto;vertical-align:middle;margin-left:4px;filter:drop-shadow(0 1px 0 rgba(0,0,0,0.4))}
+.goalie-tag{color:var(--accent);font-weight:600;font-size:0.8rem;margin-left:4px}
+.schedule-wrap{overflow-x:auto}
+#schedule-table{min-width:640px}
+#schedule-table td,#schedule-table th{white-space:nowrap}
+#schedule-table .sched-date{font-weight:600;color:var(--accent)}
+#schedule-table .sched-played{background:rgba(245,158,11,0.06)}
+#schedule-table .sched-score{font-size:0.8rem;color:var(--muted);margin-top:2px}
+#schedule-table .sched-played strong{color:var(--text)}
+
+.brand{display:flex;align-items:center;gap:12px}
+.site-logo{height:48px;width:auto;display:block}
+@media (max-width:600px){.site-logo{height:34px}}
+.card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(0,0,0,0.02));border:1px solid rgba(255,255,255,0.03);padding:12px;border-radius:8px}
+table{width:100%;border-collapse:collapse;color:var(--text)}
+th,td{text-align:left;padding:8px;font-size:0.95rem;border-bottom:1px solid rgba(255,255,255,0.03)}
+th{color:var(--muted);font-weight:600;font-size:0.85rem}
+.leaders-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.teams-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.team-card{background:rgba(255,255,255,0.02);padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03)}
+.team-card h4{margin:0 0 6px 0}
+.team-card p{margin:4px 0;color:var(--muted);font-size:0.9rem}
+@media (max-width:900px){.leaders-grid,.teams-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.leaders-grid,.teams-grid{grid-template-columns:1fr}.site-header{padding:12px}.site-nav{width:100%;margin-top:8px}}
+.small-muted{color:var(--muted);font-size:0.9rem}

@@ -1,0 +1,6 @@
+# Source files and working material - not part of the published site
+*.xlsx
+*.pdf
+ChatGPT Image*.png
+python-webhost.jpg
+.claude/

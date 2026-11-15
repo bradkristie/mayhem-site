@@ -1,0 +1,1044 @@
+{
+  "seasons": {
+    "2026-2027": {
+      "teams": [
+        {
+          "id": "BAI",
+          "name": "Baileys",
+          "gp": 3,
+          "w": 2,
+          "l": 1,
+          "otl": 0,
+          "gf": 14,
+          "ga": 17,
+          "players": [
+            {"name":"Devin Finn","g":0,"a":1},
+            {"name":"Luke Nally","g":0,"a":0,"goalie":true},
+            {"name":"Andrew Rizzi","g":0,"a":3},
+            {"name":"Jared Palermo","g":0,"a":1},
+            {"name":"Bill Paquette","g":1,"a":0},
+            {"name":"Chris Kulak","g":2,"a":3},
+            {"name":"Rich Miller","g":1,"a":2,"captain": true},
+            {"name":"Paul Marlow","g":0,"a":0},
+            {"name":"Teagan Ketchum","g":0,"a":0},
+            {"name":"Bobby Choquette","g":6,"a":3},
+            {"name":"Vince Fushino","g":3,"a":1}
+          ]
+        },
+        {
+          "id": "SEA",
+          "name": "Seasons",
+          "gp": 3,
+          "w": 1,
+          "l": 2,
+          "otl": 0,
+          "gf": 12,
+          "ga": 16,
+          "players": [
+            {"name":"Geoff Arbuckle","g":0,"a":1},
+            {"name":"Matt \"Doc\" LaFave","g":0,"a":0,"captain": true},
+            {"name":"Nick Bonanza","g":3,"a":5},
+            {"name":"Brandon Early","g":1,"a":0},
+            {"name":"Mike Peterson","g":0,"a":0},
+            {"name":"Mike Miller","g":1,"a":1},
+            {"name":"Robbie Stubbs","g":4,"a":2},
+            {"name":"Tom Quenelle","g":0,"a":1},
+            {"name":"Greg Cutrone","g":0,"a":0},
+            {"name":"Jake Gish","g":0,"a":0,"goalie":true},
+            {"name":"Jason Roberts","g":3,"a":1}
+          ]
+        },
+        {
+          "id": "NRM",
+          "name": "Normanside",
+          "gp": 3,
+          "w": 1,
+          "l": 2,
+          "otl": 0,
+          "gf": 12,
+          "ga": 14,
+          "players": [
+            {"name":"Justin Smith","g":1,"a":0},
+            {"name":"Tim Demagistris","g":1,"a":0},
+            {"name":"Dan \"Hulk\" Rothaupt","g":2,"a":1,"captain": true},
+            {"name":"Mase (Jason Brimhall)","g":1,"a":1},
+            {"name":"Eric Irving","g":0,"a":2},
+            {"name":"Jim Morrisey","g":1,"a":2},
+            {"name":"John Totzek","g":0,"a":0,"goalie":true},
+            {"name":"Tom Ruppel","g":0,"a":0},
+            {"name":"Jack Rothaupt","g":0,"a":2},
+            {"name":"Sam Hartz","g":6,"a":1},
+            {"name":"Paul Roselli","g":0,"a":1}
+          ]
+        },
+        {
+          "id": "151",
+          "name": "151 Sports",
+          "gp": 3,
+          "w": 2,
+          "l": 0,
+          "otl": 1,
+          "gf": 18,
+          "ga": 10,
+          "players": [
+            {"name":"Eric Cyrus","g":1,"a":1},
+            {"name":"Sonny Bollart","g":3,"a":3,"captain": true},
+            {"name":"Will Thompsen","g":6,"a":0},
+            {"name":"Joe Mohanchak","g":0,"a":0,"goalie":true},
+            {"name":"Reed Avveduti","g":1,"a":3},
+            {"name":"Tim Irving","g":0,"a":1},
+            {"name":"Ashley Meyer","g":2,"a":1},
+            {"name":"Ryan Smith","g":0,"a":1},
+            {"name":"Shawn Boule","g":0,"a":1},
+            {"name":"Jordan Beck","g":2,"a":2},
+            {"name":"Josh Kent","g":2,"a":2}
+          ]
+        },
+        {
+          "id": "PAB",
+          "name": "PABC",
+          "gp": 3,
+          "w": 2,
+          "l": 1,
+          "otl": 0,
+          "gf": 9,
+          "ga": 7,
+          "players": [
+            {"name":"Kevin Fiore","g":0,"a":0},
+            {"name":"Dan Willis","g":0,"a":0},
+            {"name":"Dan Winters","g":0,"a":2},
+            {"name":"Dylan Longton","g":0,"a":1},
+            {"name":"Paul Tidmarsh","g":1,"a":0},
+            {"name":"Jake Miller","g":0,"a":1},
+            {"name":"Alex Casino","g":0,"a":0,"goalie":true},
+            {"name":"Colin McCarthy","g":0,"a":0},
+            {"name":"Sean Cassels","g":2,"a":2},
+            {"name":"Greg \"Jr.\" Warnken","g":4,"a":1},
+            {"name":"Neil Desiderio","g":1,"a":1,"captain": true}
+          ]
+        },
+        {
+          "id": "DRT",
+          "name": "Druthers",
+          "gp": 3,
+          "w": 1,
+          "l": 1,
+          "otl": 1,
+          "gf": 9,
+          "ga": 19,
+          "players": [
+            {"name":"Brian Barnes","g":0,"a":0},
+            {"name":"Kyle Cooper","g":1,"a":1},
+            {"name":"Charlie LaVilla","g":0,"a":1},
+            {"name":"Dennis Kaminsky","g":0,"a":0},
+            {"name":"Joe Sgarlata","g":0,"a":1},
+            {"name":"Pat Dunleavy","g":0,"a":0},
+            {"name":"Dan Minns","g":0,"a":0},
+            {"name":"Brad Kristie","g":2,"a":0,"captain": true},
+            {"name":"Mark \"Turtle\" Howell","g":0,"a":1},
+            {"name":"Jimmy Collins","g":3,"a":0},
+            {"name":"Joe Spizuco","g":0,"a":0,"goalie":true}
+          ]
+        },
+        {
+          "id": "HOO",
+          "name": "Hookers",
+          "gp": 3,
+          "w": 1,
+          "l": 2,
+          "otl": 0,
+          "gf": 13,
+          "ga": 14,
+          "players": [
+            {"name":"Anthony Fiore","g":1,"a":1},
+            {"name":"Nick Maccracken","g":0,"a":0},
+            {"name":"Matt Russell","g":0,"a":6},
+            {"name":"Rick Boni","g":1,"a":0},
+            {"name":"Adam Cowie","g":0,"a":4},
+            {"name":"Chris Kugler","g":2,"a":1,"captain": true},
+            {"name":"Josh Daigle","g":4,"a":0},
+            {"name":"Zach Eck","g":0,"a":0},
+            {"name":"Cliff Eck","g":2,"a":1},
+            {"name":"Steve Beyer","g":1,"a":1},
+            {"name":"Austin McCrum","g":0,"a":0,"goalie":true}
+          ]
+        },
+        {
+          "id": "COP",
+          "name": "Coffee Planet",
+          "gp": 3,
+          "w": 1,
+          "l": 1,
+          "otl": 1,
+          "gf": 18,
+          "ga": 8,
+          "players": [
+            {"name":"Toby Pettinelli","g":0,"a":0},
+            {"name":"Tim Stocker","g":1,"a":1},
+            {"name":"Mark Stocker","g":4,"a":3,"captain": true},
+            {"name":"Mike Lashway","g":0,"a":0},
+            {"name":"Samantha Longo","g":0,"a":2},
+            {"name":"Reilly Moak","g":3,"a":3},
+            {"name":"Macks Keado","g":4,"a":4},
+            {"name":"Dylan Hack","g":1,"a":0},
+            {"name":"Mark Gimenza","g":1,"a":1},
+            {"name":"Ryan Cummings","g":1,"a":6},
+            {"name":"Chelsea Callain","g":0,"a":0,"goalie":true}
+          ]
+        }
+      ],
+      "schedule": {
+        "note": "October 18 – March 21 • No games February 14",
+        "times": ["4:00 PM", "5:30 PM", "7:00 PM", "8:30 PM"],
+        "weeks": [
+          {"date":"Oct. 18","games":["HOOKERS vs 151","PABC vs NSIDE","SEASONS vs DRUTH","COFFEE vs BAILEYS"]},
+          {"date":"Oct. 25","games":[{"teams":"HOOKERS vs NSIDE","score":"5-6","winner":"NSIDE"},{"teams":"COFFEE vs SEASONS","score":"4-3","winner":"COFFEE"},{"teams":"151 vs BAILEYS","score":"5-6","winner":"BAILEYS","ot":true},{"teams":"DRUTH vs PABC","score":"3-2","winner":"DRUTH"}]},
+          {"date":"Nov. 1","games":[{"teams":"COFFEE vs DRUTH","score":"11-1","winner":"COFFEE"},{"teams":"151 vs SEASONS","score":"9-1","winner":"151"},{"teams":"HOOKERS vs PABC","score":"2-3","winner":"PABC"},{"teams":"NSIDE vs BAILEYS","score":"4-5","winner":"BAILEYS"}]},
+          {"date":"Nov. 8","games":[{"teams":"HOOKERS vs DRUTH","score":"6-5","winner":"HOOKERS","so":true},{"teams":"PABC vs NSIDE","score":"4-2","winner":"PABC"},{"teams":"SEASONS vs BAILEYS","score":"8-3","winner":"SEASONS"},{"teams":"151 vs COFFEE","score":"4-3","winner":"151","so":true}]},
+          {"date":"Nov. 15","games":["DRUTH vs SEASONS","151 vs NSIDE","HOOKERS vs COFFEE","BAILEYS vs PABC"]},
+          {"date":"Nov. 22","games":["151 vs PABC","COFFEE vs NSIDE","BAILEYS vs DRUTH","HOOKERS vs SEASONS"]},
+          {"date":"Nov. 29","games":["151 vs DRUTH","HOOKERS vs BAILEYS","SEASONS vs NSIDE","PABC vs COFFEE"]},
+          {"date":"Dec. 6","games":["COFFEE vs BAILEYS","SEASONS vs PABC","DRUTH vs NSIDE","HOOKERS vs 151"]},
+          {"date":"Dec. 13","games":["HOOKERS vs NSIDE","DRUTH vs PABC","151 vs BAILEYS","COFFEE vs SEASONS"]},
+          {"date":"Dec. 20","games":["COFFEE vs DRUTH","151 vs SEASONS","NSIDE vs BAILEYS","HOOKERS vs PABC"]},
+          {"date":"Dec. 27","games":["PABC vs NSIDE","HOOKERS vs DRUTH","151 vs COFFEE","SEASONS vs BAILEYS"]},
+          {"date":"Jan. 3","games":["HOOKERS vs COFFEE","BAILEYS vs PABC","DRUTH vs SEASONS","151 vs NSIDE"]},
+          {"date":"Jan. 10","games":["151 vs PABC","HOOKERS vs SEASONS","COFFEE vs NSIDE","BAILEYS vs DRUTH"]},
+          {"date":"Jan. 17","games":["SEASONS vs NSIDE","151 vs DRUTH","HOOKERS vs BAILEYS","PABC vs COFFEE"]},
+          {"date":"Jan. 24","games":["SEASONS vs PABC","HOOKERS vs 151","COFFEE vs BAILEYS","DRUTH vs NSIDE"]},
+          {"date":"Jan. 31","games":["151 vs BAILEYS","HOOKERS vs NSIDE","DRUTH vs PABC","COFFEE vs SEASONS"]},
+          {"date":"Feb. 7","games":["151 vs SEASONS","COFFEE vs DRUTH","HOOKERS vs PABC","NSIDE vs BAILEYS"]},
+          {"date":"Feb. 21","games":["PABC vs NSIDE","151 vs COFFEE","SEASONS vs BAILEYS","HOOKERS vs DRUTH"]},
+          {"date":"Feb. 28","games":["DRUTH vs SEASONS","BAILEYS vs PABC","HOOKERS vs COFFEE","151 vs NSIDE"]},
+          {"date":"Mar. 7","games":["HOOKERS vs SEASONS","COFFEE vs NSIDE","151 vs PABC","BAILEYS vs DRUTH"]},
+          {"date":"Mar. 14","games":["PABC vs COFFEE","HOOKERS vs BAILEYS","151 vs DRUTH","SEASONS vs NSIDE"]},
+          {"date":"Mar. 21","games":["COFFEE vs BAILEYS","SEASONS vs DRUTH","PABC vs NSIDE","HOOKERS vs 151"]}
+        ]
+      }
+    },
+    "2025-2026": {
+      "teams": [
+        {
+          "id": "DRT",
+          "name": "Druthers",
+          "gp": 18,
+          "w": 13,
+          "l": 5,
+          "otl": 0,
+          "gf": 84,
+          "ga": 48,
+          "players": [
+            {"name":"Jordan Beck","g":28,"a":15},
+            {"name":"Zach Eck","g":14,"a":6},
+            {"name":"Dan Winters","g":8,"a":10},
+            {"name":"Cliff Eck","g":7,"a":12},
+            {"name":"Rich Miller","g":7,"a":6,"captain": true},
+            {"name":"Mike Stritch","g":5,"a":6},
+            {"name":"Devin Finn","g":1,"a":5},
+            {"name":"Colin McCarthy","g":3,"a":6},
+            {"name":"Jim Carpenter","g":5,"a":3},
+            {"name":"Teagan Ketchum","g":2,"a":2},
+            {"name":"Tom Ruppel","g":1,"a":4}
+          ]
+        },
+        {
+          "id": "SEA",
+          "name": "Seasons",
+          "gp": 18,
+          "w": 12,
+          "l": 6,
+          "otl": 0,
+          "gf": 77,
+          "ga": 64,
+          "players": [
+            {"name":"Nick Bonanza","g":19,"a":15},
+            {"name":"Andrew Rizzi","g":11,"a":6},
+            {"name":"Geoff Arbuckle","g":8,"a":5},
+            {"name":"Vince Fushino","g":8,"a":3},
+            {"name":"Chris Kulak","g":9,"a":14},
+            {"name":"Mike Miller","g":1,"a":8},
+            {"name":"Tim Irving","g":1,"a":8},
+            {"name":"Tom Quenelle","g":2,"a":5},
+            {"name":"Eric Irving","g":4,"a":6},
+            {"name":"Dennis Kaminsky","g":1,"a":3},
+            {"name":"Matt \"Doc\" LaFave","g":4,"a":0,"captain": true}
+          ]
+        },
+        {
+          "id": "NRM",
+          "name": "Normanside",
+          "gp": 18,
+          "w": 10,
+          "l": 6,
+          "otl": 2,
+          "gf": 69,
+          "ga": 60,
+          "players": [
+            {"name":"Evan Maloney","g":36,"a":15,"captain": true},
+            {"name":"Mark Stocker","g":11,"a":24},
+            {"name":"Reed Avveduti","g":4,"a":8},
+            {"name":"Jake Miller","g":6,"a":2},
+            {"name":"Rick Boni","g":2,"a":2},
+            {"name":"Anthony Fiore","g":4,"a":2},
+            {"name":"Tim Demagistris","g":0,"a":3},
+            {"name":"Steve Yeager","g":1,"a":2},
+            {"name":"Ryan Smith","g":1,"a":2},
+            {"name":"Nick Maccracken","g":1,"a":3},
+            {"name":"Mike Lashway","g":0,"a":2}
+          ]
+        },
+        {
+          "id": "HOO",
+          "name": "Hookers",
+          "gp": 18,
+          "w": 8,
+          "l": 7,
+          "otl": 3,
+          "gf": 97,
+          "ga": 92,
+          "players": [
+            {"name":"Matt Russell","g":11,"a":19},
+            {"name":"Greg \"Jr.\" Warnken","g":17,"a":19},
+            {"name":"Josh Daigle","g":20,"a":16},
+            {"name":"Chris Kugler","g":16,"a":11},
+            {"name":"Sonny Bollart","g":9,"a":9,"captain": true},
+            {"name":"Mike Peterson","g":5,"a":8},
+            {"name":"Adam Cowie","g":9,"a":3},
+            {"name":"Ashley Meyer","g":0,"a":10},
+            {"name":"Paul Roselli","g":6,"a":2},
+            {"name":"Jeff Mullen","g":1,"a":1},
+            {"name":"Shawn Boule","g":1,"a":2}
+          ]
+        },
+        {
+          "id": "BAI",
+          "name": "Baileys",
+          "gp": 18,
+          "w": 8,
+          "l": 8,
+          "otl": 2,
+          "gf": 66,
+          "ga": 99,
+          "players": [
+            {"name":"Kyle Cooper","g":16,"a":7},
+            {"name":"Jim Morrisey","g":8,"a":11},
+            {"name":"Charlie LaVilla","g":10,"a":12},
+            {"name":"Justin Smith","g":10,"a":3},
+            {"name":"Dan Minns","g":6,"a":8},
+            {"name":"Brad Kristie","g":7,"a":5,"captain": true},
+            {"name":"Samantha Longo","g":3,"a":5},
+            {"name":"Aaron Mortensen","g":1,"a":4},
+            {"name":"Kermit Salfi","g":0,"a":6},
+            {"name":"Dan Willis","g":1,"a":2},
+            {"name":"Paul Tidmarsh","g":0,"a":1}
+          ]
+        },
+        {
+          "id": "COP",
+          "name": "Coffee Planet",
+          "gp": 18,
+          "w": 9,
+          "l": 9,
+          "otl": 0,
+          "gf": 80,
+          "ga": 67,
+          "players": [
+            {"name":"Macks Keado","g":20,"a":8},
+            {"name":"Will Thompsen","g":15,"a":12},
+            {"name":"Ryan Cummings","g":14,"a":10,"captain": true},
+            {"name":"Joe Sgarlata","g":6,"a":4},
+            {"name":"Greg Cutrone","g":4,"a":3},
+            {"name":"Jason Roberts","g":8,"a":8},
+            {"name":"Brandon Early","g":2,"a":8},
+            {"name":"Matt Karpovich","g":5,"a":3},
+            {"name":"Toby Pettinelli","g":0,"a":5},
+            {"name":"Dylan Hack","g":2,"a":4},
+            {"name":"Jerry Bogan","g":0,"a":2}
+          ]
+        },
+        {
+          "id": "PAB",
+          "name": "PABC",
+          "gp": 18,
+          "w": 3,
+          "l": 14,
+          "otl": 1,
+          "gf": 59,
+          "ga": 102,
+          "players": [
+            {"name":"Dan \"Hulk\" Rothaupt","g":13,"a":6},
+            {"name":"Steve Beyer","g":12,"a":7},
+            {"name":"Sean Cassels","g":5,"a":7},
+            {"name":"Dylan Longton","g":4,"a":4},
+            {"name":"Jack Rothaupt","g":7,"a":2},
+            {"name":"Paul Marlow","g":1,"a":4},
+            {"name":"Kevin Fiore","g":3,"a":4},
+            {"name":"Bill Paquette","g":1,"a":1},
+            {"name":"Pat Dunleavy","g":0,"a":2,"captain": true},
+            {"name":"Jared Palermo","g":1,"a":0},
+            {"name":"Mark \"Turtle\" Howell","g":0,"a":2}
+          ]
+        }
+      ]
+    },
+    "2024-2025": {
+      "teams": [
+        {
+          "id": "DRT",
+          "name": "Druthers",
+          "gp": 21,
+          "w": 9,
+          "l": 10,
+          "otl": 2,
+          "gf": 109,
+          "ga": 112,
+          "players": [
+            {"name":"Tommy Gaunay","g":20,"a":16},
+            {"name":"Cody Rice","g":17,"a":12},
+            {"name":"Sean Cassels","g":8,"a":19},
+            {"name":"Dan Minns","g":9,"a":15},
+            {"name":"Kermit Salfi","g":7,"a":12},
+            {"name":"Adam Cowie","g":10,"a":8},
+            {"name":"Kevin Fiore","g":6,"a":11,"captain": true},
+            {"name":"Tim Demagistris","g":2,"a":5},
+            {"name":"Tom Ruppel","g":2,"a":4},
+            {"name":"Ryan Leduc","g":1,"a":2}
+          ]
+        },
+        {
+          "id": "SEA",
+          "name": "Seasons",
+          "gp": 21,
+          "w": 14,
+          "l": 5,
+          "otl": 2,
+          "gf": 95,
+          "ga": 69,
+          "players": [
+            {"name":"Will Thompsen","g":22,"a":17},
+            {"name":"Zach Eck","g":16,"a":9},
+            {"name":"Geoff Arbuckle","g":14,"a":9},
+            {"name":"Chris Kulak","g":12,"a":11},
+            {"name":"Rich Miller","g":4,"a":13},
+            {"name":"Cliff Eck","g":11,"a":9},
+            {"name":"Jeff Mullen","g":8,"a":4},
+            {"name":"Matt \"Doc\" LaFave","g":4,"a":5},
+            {"name":"Paul Tidmarsh","g":1,"a":6},
+            {"name":"Aaron Mortensen","g":0,"a":7}
+          ]
+        },
+        {
+          "id": "NRM",
+          "name": "Normanside",
+          "champion": true,
+          "gp": 21,
+          "w": 17,
+          "l": 4,
+          "otl": 0,
+          "gf": 104,
+          "ga": 74,
+          "players": [
+            {"name":"Evan Maloney","g":45,"a":17,"captain": true},
+            {"name":"Mark Stocker","g":5,"a":28},
+            {"name":"Jake Miller","g":15,"a":13},
+            {"name":"Neil Desiderio","g":13,"a":11},
+            {"name":"Tim Irving","g":8,"a":11},
+            {"name":"Dan Winters","g":3,"a":9},
+            {"name":"Ryan Smith","g":3,"a":9},
+            {"name":"Jared Palermo","g":3,"a":5},
+            {"name":"Dylan Hack","g":2,"a":4},
+            {"name":"Mike Lashway","g":0,"a":2}
+          ]
+        },
+        {
+          "id": "HOO",
+          "name": "Hookers",
+          "gp": 21,
+          "w": 10,
+          "l": 9,
+          "otl": 2,
+          "gf": 91,
+          "ga": 103,
+          "players": [
+            {"name":"Jordan Beck","g":23,"a":11},
+            {"name":"Chris Kugler","g":17,"a":9},
+            {"name":"Anthony Fiore","g":10,"a":7},
+            {"name":"Sonny Bollart","g":4,"a":9},
+            {"name":"Ashley Meyer","g":6,"a":5},
+            {"name":"Shawn Boule","g":4,"a":8},
+            {"name":"Jim Carpenter","g":4,"a":8},
+            {"name":"Steve Yeager","g":3,"a":6},
+            {"name":"Kyle Cooper","g":6,"a":4},
+            {"name":"Rick Boni","g":0,"a":5,"captain": true}
+          ]
+        },
+        {
+          "id": "WIN",
+          "name": "Winnebago",
+          "gp": 21,
+          "w": 9,
+          "l": 12,
+          "otl": 0,
+          "gf": 99,
+          "ga": 112,
+          "players": [
+            {"name":"Charlie LaVilla","g":22,"a":20},
+            {"name":"Matt Russell","g":16,"a":24},
+            {"name":"Justin Smith","g":5,"a":19},
+            {"name":"Steve Beyer","g":10,"a":12},
+            {"name":"Greg Cutrone","g":12,"a":9},
+            {"name":"Paul Roselli","g":5,"a":5},
+            {"name":"Samantha Longo","g":3,"a":6},
+            {"name":"Brandon Early","g":5,"a":4,"captain": true},
+            {"name":"Mike Stritch","g":4,"a":4},
+            {"name":"Jerry Bogan","g":1,"a":2}
+          ]
+        },
+        {
+          "id": "BAI",
+          "name": "Baileys",
+          "gp": 21,
+          "w": 10,
+          "l": 9,
+          "otl": 2,
+          "gf": 95,
+          "ga": 103,
+          "players": [
+            {"name":"Greg \"Jr.\" Warnken","g":26,"a":20},
+            {"name":"Dan \"Hulk\" Rothaupt","g":17,"a":9},
+            {"name":"Vince Fushino","g":14,"a":10},
+            {"name":"Bill Paquette","g":4,"a":9},
+            {"name":"Nick Maccracken","g":9,"a":4},
+            {"name":"Tom Quenelle","g":2,"a":8},
+            {"name":"Matt Meagher","g":3,"a":7},
+            {"name":"Colin McCarthy","g":1,"a":7},
+            {"name":"Eric Irving","g":2,"a":3},
+            {"name":"Bran Barnes","g":1,"a":3}
+          ]
+        },
+        {
+          "id": "COP",
+          "name": "Coffee Planet",
+          "gp": 21,
+          "w": 5,
+          "l": 14,
+          "otl": 2,
+          "gf": 72,
+          "ga": 97,
+          "players": [
+            {"name":"Jim Morrisey","g":8,"a":23},
+            {"name":"Bobby Choquette","g":21,"a":9},
+            {"name":"Ryan Cummings","g":13,"a":4},
+            {"name":"Joe Sgarlata","g":9,"a":7},
+            {"name":"Devin Finn","g":5,"a":7},
+            {"name":"Mike Peterson","g":0,"a":7},
+            {"name":"Paul Marlow","g":0,"a":5},
+            {"name":"Pat Dunleavy","g":3,"a":3},
+            {"name":"Mark \"Turtle\" Howell","g":0,"a":4},
+            {"name":"Kevin Blodgett","g":0,"a":1}
+          ]
+        },
+        {
+          "id": "PAB",
+          "name": "PABC",
+          "gp": 21,
+          "w": 10,
+          "l": 10,
+          "otl": 1,
+          "gf": 137,
+          "ga": 132,
+          "players": [
+            {"name":"Sam Hartz","g":82,"a":22},
+            {"name":"Andrew Rizzi","g":14,"a":15},
+            {"name":"Brad Kristie","g":12,"a":10},
+            {"name":"Tim Higgins","g":7,"a":9},
+            {"name":"Dan Willis","g":0,"a":15},
+            {"name":"Mike Miller","g":0,"a":13},
+            {"name":"Matt Karpovich","g":2,"a":12,"captain": true},
+            {"name":"Dylan Longton","g":1,"a":6},
+            {"name":"Dennis Kaminsky","g":1,"a":6},
+            {"name":"Toby Pettinelli","g":0,"a":6}
+          ]
+        }
+      ]
+    }
+    ,
+    "2023-2024": {
+      "teams": [
+        {
+          "id": "RED",
+          "name": "Red Wings",
+          "champion": true,
+          "gp": 20,
+          "w": 13,
+          "l": 5,
+          "otl": 1,
+          "gf": 124,
+          "ga": 115,
+          "players": [
+            {"name":"Sam Hartz","g":34,"a":11},
+            {"name":"Kermit Salfi","g":15,"a":29},
+            {"name":"Charlie LaVilla","g":15,"a":23},
+            {"name":"Dan \"Hulk\" Rothaupt","g":14,"a":16},
+            {"name":"Brad Kristie","g":13,"a":15,"captain": true},
+            {"name":"Aaron Mortensen","g":6,"a":14},
+            {"name":"Kyle Cooper","g":10,"a":6},
+            {"name":"B.J. Epting","g":5,"a":6},
+            {"name":"Tom Ruppel","g":3,"a":6},
+            {"name":"Brian Barnes","g":0,"a":3}
+          ]
+        },
+        {
+          "id": "WIN",
+          "name": "Winnebago",
+          "gp": 20,
+          "w": 12,
+          "l": 7,
+          "otl": 1,
+          "gf": 98,
+          "ga": 83,
+          "players": [
+            {"name":"Greg \"Jr.\" Warnken","g":23,"a":19},
+            {"name":"Will Thompsen","g":23,"a":11},
+            {"name":"Vince Fushino","g":15,"a":9},
+            {"name":"Kevin Fiore","g":6,"a":15},
+            {"name":"Joe Sgarlata","g":4,"a":11},
+            {"name":"Mike Stritch","g":8,"a":4},
+            {"name":"Tom Quenelle","g":6,"a":6},
+            {"name":"Pat Dunleavy","g":2,"a":10,"captain": true},
+            {"name":"Mark \"Turtle\" Howell","g":1,"a":6},
+            {"name":"Dan Willis","g":4,"a":1}
+          ]
+        },
+        {
+          "id": "NRM",
+          "name": "Normanside",
+          "gp": 19,
+          "w": 11,
+          "l": 6,
+          "otl": 2,
+          "gf": 110,
+          "ga": 97,
+          "players": [
+            {"name":"Mike Cyrus","g":24,"a":12},
+            {"name":"Jake Miller","g":17,"a":6},
+            {"name":"Justin Smith","g":11,"a":14},
+            {"name":"Neil Desiderio","g":13,"a":6},
+            {"name":"Dylan Longton","g":7,"a":13},
+            {"name":"Andrew Rizzi","g":6,"a":10},
+            {"name":"Rich Miller","g":4,"a":10,"captain": true},
+            {"name":"Matt Karpovich","g":2,"a":7},
+            {"name":"Brandon Early","g":4,"a":6},
+            {"name":"Paul Tidmarsh","g":2,"a":5}
+          ]
+        },
+        {
+          "id": "HOO",
+          "name": "Hookers",
+          "gp": 21,
+          "w": 11,
+          "l": 9,
+          "otl": 1,
+          "gf": 124,
+          "ga": 106,
+          "players": [
+            {"name":"Evan Maloney","g":43,"a":26},
+            {"name":"Chris Kugler","g":12,"a":16},
+            {"name":"Ashley Meyer","g":5,"a":11},
+            {"name":"Steve Beyer","g":9,"a":6},
+            {"name":"Anthony Fiore","g":8,"a":6},
+            {"name":"Tim Demagistris","g":4,"a":6},
+            {"name":"Nick Karpovich","g":4,"a":5},
+            {"name":"Rick Boni","g":3,"a":6},
+            {"name":"Eric Irving","g":1,"a":6,"captain": true},
+            {"name":"Tim Irving","g":3,"a":3}
+          ]
+        },
+        {
+          "id": "SEA",
+          "name": "Seasons",
+          "gp": 20,
+          "w": 7,
+          "l": 9,
+          "otl": 4,
+          "gf": 104,
+          "ga": 128,
+          "players": [
+            {"name":"Cody Rice","g":18,"a":17,"captain": true},
+            {"name":"Tommy Gaunay","g":17,"a":19},
+            {"name":"Ryan Cummings","g":20,"a":11},
+            {"name":"Jim Morrisey","g":13,"a":13},
+            {"name":"Dan Minns","g":6,"a":16},
+            {"name":"Colin McCarthy","g":5,"a":10},
+            {"name":"Mike Peterson","g":7,"a":6},
+            {"name":"Greg Cutrone","g":7,"a":4},
+            {"name":"Kevin Blodgett","g":0,"a":6},
+            {"name":"Toby Pettinelli","g":2,"a":1}
+          ]
+        },
+        {
+          "id": "DRT",
+          "name": "Druthers",
+          "gp": 19,
+          "w": 8,
+          "l": 10,
+          "otl": 1,
+          "gf": 100,
+          "ga": 117,
+          "players": [
+            {"name":"Jordan Beck","g":33,"a":17},
+            {"name":"Sean Cassels","g":15,"a":7},
+            {"name":"Sonny Bollart","g":11,"a":6,"captain": true},
+            {"name":"Bill Paquette","g":5,"a":6},
+            {"name":"Tommy Barnes","g":5,"a":3},
+            {"name":"Shawn Boule","g":5,"a":4},
+            {"name":"Ryan Smith","g":1,"a":7},
+            {"name":"Jim Carpenter","g":2,"a":5},
+            {"name":"Dennis Kaminsky","g":0,"a":2},
+            {"name":"Paul Roselli","g":1,"a":0}
+          ]
+        },
+        {
+          "id": "BAI",
+          "name": "Baileys",
+          "gp": 19,
+          "w": 7,
+          "l": 11,
+          "otl": 1,
+          "gf": 87,
+          "ga": 101,
+          "players": [
+            {"name":"Bobby Choquette","g":27,"a":10},
+            {"name":"Zach Eck","g":16,"a":16},
+            {"name":"Chris Kulak","g":12,"a":15},
+            {"name":"Cliff Eck","g":9,"a":12},
+            {"name":"Dan Winters","g":5,"a":9},
+            {"name":"Jared Palermo","g":4,"a":4},
+            {"name":"Geoff Arbuckle","g":4,"a":6},
+            {"name":"Matt \"Doc\" LaFave","g":2,"a":5,"captain": true},
+            {"name":"Paul Marlow","g":0,"a":5},
+            {"name":"Mike Lashway","g":1,"a":1}
+          ]
+        }
+      ]
+    },
+    "2022-2023": {
+      "teams": [
+        {
+          "id": "FRG",
+          "name": "Frog Alley",
+          "gp": 20,
+          "w": 14,
+          "l": 5,
+          "otl": 1,
+          "gf": 108,
+          "ga": 77,
+          "players": [
+            {"name":"Mike Cyrus","g":38,"a":20},
+            {"name":"Jake Miller","g":15,"a":9},
+            {"name":"Anthony Fiore","g":10,"a":9},
+            {"name":"Rich Miller","g":6,"a":13,"captain": true},
+            {"name":"Aaron Mortensen","g":10,"a":6},
+            {"name":"Andrew Rizzi","g":7,"a":7},
+            {"name":"Bill Paquette","g":5,"a":7},
+            {"name":"Tom Ruppel","g":2,"a":7},
+            {"name":"Rick Boni","g":5,"a":2},
+            {"name":"Pat Lynch","g":2,"a":2}
+          ]
+        },
+        {
+          "id": "STM",
+          "name": "Sticker Mule",
+          "champion": true,
+          "gp": 21,
+          "w": 12,
+          "l": 9,
+          "otl": 0,
+          "gf": 130,
+          "ga": 112,
+          "players": [
+            {"name":"Connor Arnold","g":48,"a":18},
+            {"name":"Greg \"Jr.\" Warnken","g":19,"a":41},
+            {"name":"Sean Cassels","g":16,"a":15},
+            {"name":"Dan Minns","g":11,"a":14},
+            {"name":"Shaun Boule","g":8,"a":12},
+            {"name":"Colin McCarthy","g":6,"a":8},
+            {"name":"Eric Irving","g":3,"a":11,"captain": true},
+            {"name":"Tim Irving","g":2,"a":6},
+            {"name":"Kevin Blodgett","g":3,"a":1},
+            {"name":"Brian Barnes","g":0,"a":4}
+          ]
+        },
+        {
+          "id": "WnW",
+          "name": "Walt & Whitman",
+          "gp": 21,
+          "w": 12,
+          "l": 9,
+          "otl": 0,
+          "gf": 139,
+          "ga": 123,
+          "players": [
+            {"name":"Bobby Choquette","g":44,"a":25},
+            {"name":"Vince Fushino","g":22,"a":16},
+            {"name":"Zach Eck","g":17,"a":15},
+            {"name":"Ryan Cummings","g":14,"a":17},
+            {"name":"Dylan Longton","g":11,"a":10},
+            {"name":"Paul Marlow","g":2,"a":10},
+            {"name":"Cliff Eck","g":11,"a":4},
+            {"name":"Pat Dunleavy","g":3,"a":7,"captain": true},
+            {"name":"Jared Palermo","g":2,"a":4},
+            {"name":"Joe Sgarlata","g":0,"a":6}
+          ]
+        },
+        {
+          "id": "KOB",
+          "name": "Katie O'Byrnes",
+          "gp": 21,
+          "w": 11,
+          "l": 8,
+          "otl": 2,
+          "gf": 121,
+          "ga": 109,
+          "players": [
+            {"name":"Jimmy Collins","g":26,"a":22},
+            {"name":"Brad Kristie","g":17,"a":18},
+            {"name":"Scott Stevens","g":13,"a":12,"captain": true},
+            {"name":"Dan \"Hulk\" Rothaupt","g":12,"a":9},
+            {"name":"Steve Beyer","g":9,"a":10},
+            {"name":"Steve Nieminski","g":4,"a":14},
+            {"name":"Gary Curcio","g":12,"a":5},
+            {"name":"Kyle Cooper","g":5,"a":11},
+            {"name":"Jim Carpenter","g":5,"a":10},
+            {"name":"Paul Tidmarsh","g":1,"a":5}
+          ]
+        },
+        {
+          "id": "RaF",
+          "name": "Rare Form",
+          "gp": 21,
+          "w": 10,
+          "l": 10,
+          "otl": 1,
+          "gf": 106,
+          "ga": 109,
+          "players": [
+            {"name":"Sam Hartz","g":31,"a":12},
+            {"name":"Charlie LaVilla","g":15,"a":20},
+            {"name":"Jim Morrisey","g":12,"a":10},
+            {"name":"Matt \"Doc\" LaFave","g":3,"a":14,"captain": true},
+            {"name":"Tim Demagistris","g":7,"a":7},
+            {"name":"Tom Quenelle","g":6,"a":8},
+            {"name":"Geoff Arbuckle","g":6,"a":6},
+            {"name":"Brandon Early","g":6,"a":6},
+            {"name":"Kevin Fiore","g":3,"a":8},
+            {"name":"Mike Lashway","g":2,"a":1}
+          ]
+        },
+        {
+          "id": "MNG",
+          "name": "Midnight Grinders",
+          "gp": 20,
+          "w": 10,
+          "l": 10,
+          "otl": 0,
+          "gf": 119,
+          "ga": 116,
+          "players": [
+            {"name":"Evan Maloney","g":33,"a":15},
+            {"name":"Tommy Barnes","g":29,"a":8},
+            {"name":"Josh Kent","g":15,"a":13},
+            {"name":"Sonny Bollart","g":13,"a":13,"captain": true},
+            {"name":"Luke Nally","g":4,"a":16},
+            {"name":"Neil Desiderio","g":9,"a":10},
+            {"name":"Ryan Smith","g":3,"a":8},
+            {"name":"Greg Cutrone","g":3,"a":7},
+            {"name":"Jerry Bogan","g":2,"a":6},
+            {"name":"Mike Peterson","g":2,"a":4}
+          ]
+        },
+        {
+          "id": "RMc",
+          "name": "Real McCoy",
+          "gp": 21,
+          "w": 3,
+          "l": 18,
+          "otl": 0,
+          "gf": 89,
+          "ga": 166,
+          "players": [
+            {"name":"Cody Rice","g":19,"a":13,"captain": true},
+            {"name":"Tommy Gaunay","g":15,"a":12},
+            {"name":"Nick Karpovich","g":6,"a":11},
+            {"name":"Jay Dinardo","g":7,"a":5},
+            {"name":"Adam Cowie","g":7,"a":4},
+            {"name":"Hector Monge","g":6,"a":4},
+            {"name":"Matt Karpovich","g":4,"a":5},
+            {"name":"Mike Stritch","g":1,"a":5},
+            {"name":"Dennis Kaminsky","g":3,"a":3},
+            {"name":"Toby Pettinelli","g":1,"a":3}
+          ]
+        }
+      ]
+    },
+    "2021-2022": {
+      "teams": [
+        {
+          "id": "FRG",
+          "name": "Frog Alley",
+          "champion": true,
+          "gp": 19,
+          "w": 16,
+          "l": 2,
+          "otl": 1,
+          "gf": 125,
+          "ga": 83,
+          "players": [
+            {"name":"Neil Desiderio","g":15,"a":14},
+            {"name":"Jake Miller","g":13,"a":14},
+            {"name":"Sam Hartz","g":16,"a":9},
+            {"name":"Kurt Leadley","g":16,"a":9},     
+            {"name":"Colin McCarthy","g":0,"a":0},
+            {"name":"Dan \"Hulk\" Rothaupt","g":0,"a":0},
+            {"name":"Rich Miller","g":0,"a":0,"captain": true},
+            {"name":"Tom Ruppel","g":0,"a":0},           
+            {"name":"Mike Lashway","g":0,"a":0},
+            {"name":"Aaron Mortensen","g":0,"a":0}
+          ]
+        },
+        {
+          "id": "WnW",
+          "name": "Walt & Whitman",
+          "gp": 20,
+          "w": 12,
+          "l": 8,
+          "otl": 0,
+          "gf": 132,
+          "ga": 99,
+          "players": [
+            {"name":"Bobby Choquette","g":56,"a":17},
+            {"name":"Aaron Mortensen","g":15,"a":17},
+            {"name":"Eric Irving","g":0,"a":0},
+            {"name":"Adam Cowie","g":0,"a":0},
+            {"name":"Ray Label","g":0,"a":0},
+            {"name":"Joe Sgarlata","g":0,"a":0},
+            {"name":"Paul Roselli","g":0,"a":0},
+            {"name":"Pat Dunleavy","g":0,"a":0,"captain": true},
+            {"name":"Toby Pettinelli","g":0,"a":0},
+            {"name":"Greg Cutrone","g":0,"a":0}
+          ]
+        },
+        {
+          "id": "MNG",
+          "name": "Midnight Grinders",
+          "gp": 20,
+          "w": 11,
+          "l": 9,
+          "otl": 0,
+          "gf": 116,
+          "ga": 121,
+          "players": [
+            {"name":"Tommy Barnes","g":33,"a":15},
+            {"name":"Josh Kent","g":20,"a":13},
+            {"name":"Andrew Rizzi","g":11,"a":19},
+            {"name":"Vince Fushino","g":16,"a":9},
+            {"name":"Bill Paquette","g":0,"a":0},
+            {"name":"Sonny Bollart","g":0,"a":0,"captain": true},
+            {"name":"Shawn Boule","g":0,"a":0},
+            {"name":"Dan Piazza","g":0,"a":0},
+            {"name":"Brian Barnes","g":0,"a":0},
+            {"name":"Mike Raymond","g":0,"a":0}
+          ]
+        },
+        {
+          "id": "KOB",
+          "name": "Katie O'Byrnes",
+          "gp": 20,
+          "w": 9,
+          "l": 10,
+          "otl": 1,
+          "gf": 137,
+          "ga": 114,
+          "players": [
+            {"name":"Greg \"Jr.\" Warnken","g":23,"a":22},
+            {"name":"Nick Testa","g":22,"a":18},
+            {"name":"Scott Stevens","g":12,"a":22,"captain": true},
+            {"name":"Gary Curcio","g":18,"a":12},
+            {"name":"Jay Dinardo","g":15,"a":13},
+            {"name":"Kevin Fiore","g":0,"a":0},           
+            {"name":"Dan Minns","g":0,"a":0},
+            {"name":"Matt Karpovich","g":0,"a":0},
+            {"name":"Kyle Cooper","g":0,"a":0},
+            {"name":"Mike Peterson","g":0,"a":0}
+          ]
+        },
+        {
+          "id": "RMc",
+          "name": "Real McCoy",
+          "gp": 20,
+          "w": 9,
+          "l": 10,
+          "otl": 1,
+          "gf": 107,
+          "ga": 116,
+          "players": [
+            {"name":"Tommy Gaunay","g":24,"a":16},
+            {"name":"Cody Rice","g":20,"a":17,"captain": true},
+            {"name":"Charlie LaVilla","g":18,"a":13},         
+            {"name":"Brad Kristie","g":0,"a":0},
+            {"name":"Brandon Early","g":0,"a":0},
+            {"name":"Dylan Longton","g":0,"a":0},
+            {"name":"Pat Buckley","g":0,"a":0},
+            {"name":"Paul Tidmarsh","g":0,"a":0},
+            {"name":"Ryan Smith","g":0,"a":0},
+            {"name":"Ryan Leduc","g":0,"a":0}
+          ]
+        },
+        {
+          "id": "RaF",
+          "name": "Rare Form",
+          "gp": 19,
+          "w": 8,
+          "l": 11,
+          "otl": 0,
+          "gf": 108,
+          "ga": 124,
+          "players": [
+            {"name":"Mike Cyrus","g":23,"a":20},
+            {"name":"Connor Arnold","g":25,"a":11},
+            {"name":"Hector Monge","g":0,"a":0},
+            {"name":"Tim Demagistris","g":0,"a":0},
+            {"name":"Geoff Arbuckle","g":0,"a":0},
+            {"name":"Matt \"Doc\" LaFave","g":0,"a":0,"captain": true},
+            {"name":"Tim Irving","g":0,"a":0},
+            {"name":"Dennis Kaminsky","g":0,"a":0},
+            {"name":"Pat Lynch","g":0,"a":0},
+            {"name":"Nick Geneau","g":0,"a":0}
+          ]
+        },
+        {
+          "id": "STM",
+          "name": "Sticker Mule",
+          "gp": 20,
+          "w": 4,
+          "l": 14,
+          "otl": 2,
+          "gf": 79,
+          "ga": 126,
+          "players": [
+            {"name":"Tom Quenelle","g":0,"a":0,"captain": true},
+            {"name":"Zach Eck","g":0,"a":0},
+            {"name":"Justin Smith","g":0,"a":0},
+            {"name":"Cliff Eck","g":0,"a":0},
+            {"name":"Steve Beyer","g":0,"a":0},
+            {"name":"Jim Carpenter","g":0,"a":0},
+            {"name":"Bill Maki","g":0,"a":0},
+            {"name":"Paddy Lyons","g":0,"a":0},
+            {"name":"Mike Stritch","g":0,"a":0},
+            {"name":"Liz Smith","g":0,"a":0}
+          ]
+        }
+      ]
+    }
+  }
+}
