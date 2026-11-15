@@ -89,6 +89,23 @@
     <small>Last Update : 11/12/2026</small>
   </footer>
 
+  <dialog id="player-dialog" class="player-dialog">
+    <div class="dialog-head">
+      <div>
+        <h3 id="player-dialog-name"></h3>
+        <p id="player-dialog-summary" class="small-muted"></p>
+      </div>
+      <button type="button" class="dialog-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="dialog-body">
+      <table id="player-dialog-table">
+        <thead><tr><th>Season</th><th>Team</th><th>G</th><th>A</th><th>Pts</th></tr></thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+      </table>
+    </div>
+  </dialog>
+
   <script src="script.js"></script>
 </body>
 </html>

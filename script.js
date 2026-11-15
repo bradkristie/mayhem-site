@@ -77,9 +77,9 @@ function renderLeaders(){
   const pEl = document.getElementById('points-leaders');
   gEl.innerHTML = ''; aEl.innerHTML = ''; pEl.innerHTML = '';
 
-  byGoals.forEach(p=>{ const li = document.createElement('li'); li.innerHTML = `${p.name}${p.captain? ' <img src="captain.png" class="captain" alt="Captain">':''} — ${p.team} (${p.g}G ${p.a}A)`; gEl.appendChild(li);});
-  byAssists.forEach(p=>{ const li = document.createElement('li'); li.innerHTML = `${p.name}${p.captain? ' <img src="captain.png" class="captain" alt="Captain">':''} — ${p.team} (${p.a}A ${p.g}G)`; aEl.appendChild(li);});
-  byPoints.forEach(p=>{ const li = document.createElement('li'); li.innerHTML = `${p.name}${p.captain? ' <img src="captain.png" class="captain" alt="Captain">':''} — ${p.team} (${p.pts} Pts)`; pEl.appendChild(li);});
+  byGoals.forEach(p=>{ const li = document.createElement('li'); li.innerHTML = `${playerLink(p.name)}${p.captain? ' <img src="captain.png" class="captain" alt="Captain">':''} — ${p.team} (${p.g}G ${p.a}A)`; gEl.appendChild(li);});
+  byAssists.forEach(p=>{ const li = document.createElement('li'); li.innerHTML = `${playerLink(p.name)}${p.captain? ' <img src="captain.png" class="captain" alt="Captain">':''} — ${p.team} (${p.a}A ${p.g}G)`; aEl.appendChild(li);});
+  byPoints.forEach(p=>{ const li = document.createElement('li'); li.innerHTML = `${playerLink(p.name)}${p.captain? ' <img src="captain.png" class="captain" alt="Captain">':''} — ${p.team} (${p.pts} Pts)`; pEl.appendChild(li);});
 }
 
 function renderTeams(){
@@ -94,7 +94,7 @@ function renderTeams(){
       <p class="small-muted">GF: ${t.gf} • GA: ${t.ga} • GD: ${t.gf - t.ga}</p>
       <details>
         <summary>Player Stats</summary>
-        <ul>${[...t.players].sort((a,b)=>(a.goalie?1:0)-(b.goalie?1:0) || (b.g+b.a)-(a.g+a.a)).map(p=>`<li>${p.name}${p.captain? ' <img src="captain.png" class="captain" alt="Captain">':''}${p.goalie? ' <span class="goalie-tag">(G)</span>':` — ${p.g}G ${p.a}A (${p.g+p.a} Pts)`}</li>`).join('')}</ul>
+        <ul>${[...t.players].sort((a,b)=>(a.goalie?1:0)-(b.goalie?1:0) || (b.g+b.a)-(a.g+a.a)).map(p=>`<li>${playerLink(p.name)}${p.captain? ' <img src="captain.png" class="captain" alt="Captain">':''}${p.goalie? ' <span class="goalie-tag">(G)</span>':` — ${p.g}G ${p.a}A (${p.g+p.a} Pts)`}</li>`).join('')}</ul>
       </details>
     `;
     grid.appendChild(div);
@@ -134,6 +134,56 @@ function renderSchedule(){
     tbody.appendChild(tr);
   });
 }
+
+// Player career popup
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function playerLink(name){
+  return `<button type="button" class="player-link" data-player="${escapeHtml(name)}">${escapeHtml(name)}</button>`;
+}
+
+// every season the player appears in, newest first
+function playerHistory(name){
+  const rows = [];
+  Object.keys(seasons).sort().reverse().forEach(key=>{
+    (seasons[key].teams || []).forEach(team=>{
+      (team.players || []).forEach(p=>{
+        if(p.name === name) rows.push({season:key, team:team.name, champion:team.champion, ...p});
+      });
+    });
+  });
+  return rows;
+}
+
+function showPlayer(name){
+  const dialog = document.getElementById('player-dialog');
+  const rows = playerHistory(name);
+  const skaterRows = rows.filter(r=>!r.goalie);
+  const tg = skaterRows.reduce((s,r)=>s+r.g, 0);
+  const ta = skaterRows.reduce((s,r)=>s+r.a, 0);
+  document.getElementById('player-dialog-name').textContent = name;
+  document.getElementById('player-dialog-summary').textContent =
+    `${rows.length} season${rows.length===1?'':'s'}` + (skaterRows.length ? ` • ${tg}G ${ta}A • ${tg+ta} Pts career` : '');
+  document.querySelector('#player-dialog-table tbody').innerHTML = rows.map(r=>`
+    <tr>
+      <td>${r.season}</td>
+      <td>${escapeHtml(r.team)}${r.champion? ' <img src="trophy.png" class="trophy" alt="Champs">':''}${r.captain? ' <img src="captain.png" class="captain" alt="Captain">':''}</td>
+      ${r.goalie ? '<td colspan="3"><span class="goalie-tag">Goalie</span></td>' : `<td>${r.g}</td><td>${r.a}</td><td>${r.g+r.a}</td>`}
+    </tr>`).join('');
+  document.querySelector('#player-dialog-table tfoot').innerHTML = skaterRows.length > 1
+    ? `<tr><td colspan="2">Career</td><td>${tg}</td><td>${ta}</td><td>${tg+ta}</td></tr>` : '';
+  dialog.showModal();
+}
+
+document.addEventListener('click', e=>{
+  const link = e.target.closest('.player-link');
+  if(link){ showPlayer(link.dataset.player); return; }
+  const dialog = document.getElementById('player-dialog');
+  // close on the close button or a click on the backdrop
+  if(e.target.closest('.dialog-close') || e.target === dialog) dialog.close();
+});
 
 // Initialize
 document.addEventListener('DOMContentLoaded', async ()=>{

@@ -38,3 +38,17 @@ th{color:var(--muted);font-weight:600;font-size:0.85rem}
 @media (max-width:900px){.leaders-grid,.teams-grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:600px){.leaders-grid,.teams-grid{grid-template-columns:1fr}.site-header{padding:12px}.site-nav{width:100%;margin-top:8px}}
 .small-muted{color:var(--muted);font-size:0.9rem}
+
+/* Clickable player names and career popup */
+.player-link{background:none;border:0;padding:0;font:inherit;color:inherit;cursor:pointer;text-align:left;text-decoration:underline;text-decoration-color:rgba(245,158,11,0.4);text-underline-offset:3px}
+.player-link:hover,.player-link:focus-visible{color:var(--accent);text-decoration-color:var(--accent)}
+.player-dialog{background:var(--card);color:var(--text);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:0;width:min(560px,calc(100vw - 32px));max-height:calc(100vh - 64px);box-shadow:0 20px 50px rgba(0,0,0,0.5)}
+.player-dialog::backdrop{background:rgba(3,8,20,0.7)}
+.dialog-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:16px 16px 8px}
+.dialog-head h3{margin:0;font-size:1.2rem}
+.dialog-head p{margin:4px 0 0}
+.dialog-close{background:none;border:0;color:var(--muted);font-size:1.6rem;line-height:1;cursor:pointer;padding:0 4px}
+.dialog-close:hover{color:var(--text)}
+.dialog-body{padding:0 16px 16px;overflow-x:auto}
+#player-dialog-table td:nth-child(n+3),#player-dialog-table th:nth-child(n+3){text-align:right}
+#player-dialog-table tfoot td{font-weight:700;color:var(--accent);border-bottom:0}
