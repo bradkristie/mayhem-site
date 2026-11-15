@@ -244,6 +244,7 @@
         {
           "id": "SEA",
           "name": "Seasons",
+          "champion": true,
           "gp": 18,
           "w": 12,
           "l": 6,
