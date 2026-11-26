@@ -14,15 +14,15 @@
           "players": [
             {"name":"Devin Finn","g":0,"a":1},
             {"name":"Luke Nally","g":0,"a":0,"goalie":true},
-            {"name":"Andrew Rizzi","g":1,"a":3},
-            {"name":"Jared Palermo","g":0,"a":1},
+            {"name":"Andrew Rizzi","g":1,"a":4},
+            {"name":"Jared Palermo","g":0,"a":2},
             {"name":"Bill Paquette","g":1,"a":0},
-            {"name":"Chris Kulak","g":2,"a":5},
-            {"name":"Rich Miller","g":1,"a":3,"captain": true},
+            {"name":"Chris Kulak","g":3,"a":5},
+            {"name":"Rich Miller","g":1,"a":4,"captain": true},
             {"name":"Paul Marlow","g":0,"a":0},
             {"name":"Teagan Ketchum","g":0,"a":0},
-            {"name":"Bobby Choquette","g":10,"a":3},
-            {"name":"Vince Fushino","g":3,"a":2}
+            {"name":"Bobby Choquette","g":11,"a":4},
+            {"name":"Vince Fushino","g":5,"a":2}
           ]
         },
         {
@@ -35,7 +35,7 @@
           "gf": 17,
           "ga": 20,
           "players": [
-            {"name":"Geoff Arbuckle","g":0,"a":1},
+            {"name":"Geoff Arbuckle","g":0,"a":3},
             {"name":"Matt \"Doc\" LaFave","g":0,"a":0,"captain": true},
             {"name":"Nick Bonanza","g":3,"a":6},
             {"name":"Brandon Early","g":2,"a":1},
@@ -62,13 +62,13 @@
             {"name":"Tim Irving","g":1,"a":0},
             {"name":"Dan \"Hulk\" Rothaupt","g":3,"a":4,"captain": true},
             {"name":"Mase (Jason Brimhall)","g":1,"a":1},
-            {"name":"Eric Irving","g":1,"a":3},
+            {"name":"Eric Irving","g":1,"a":4},
             {"name":"Jim Morrisey","g":2,"a":3},
             {"name":"John Totzek","g":0,"a":0,"goalie":true},
             {"name":"Tom Ruppel","g":0,"a":0},
             {"name":"Jack Rothaupt","g":0,"a":2},
-            {"name":"Sam Hartz","g":10,"a":2},
-            {"name":"Paul Roselli","g":1,"a":3}
+            {"name":"Sam Hartz","g":15,"a":2},
+            {"name":"Paul Roselli","g":1,"a":4}
           ]
         },
         {
@@ -81,17 +81,17 @@
           "gf": 27,
           "ga": 24,
           "players": [
-            {"name":"Eric Cyrus","g":2,"a":1},
-            {"name":"Sonny Bollart","g":5,"a":3,"captain": true},
-            {"name":"Will Thompsen","g":6,"a":0},
+            {"name":"Eric Cyrus","g":2,"a":2},
+            {"name":"Sonny Bollart","g":5,"a":4,"captain": true},
+            {"name":"Will Thompsen","g":7,"a":1},
             {"name":"Joe Mohanchak","g":0,"a":0,"goalie":true},
             {"name":"Reed Avveduti","g":1,"a":4},
-            {"name":"Tim Demagistris","g":0,"a":1},
-            {"name":"Ashley Meyer","g":2,"a":1},
+            {"name":"Tim Demagistris","g":0,"a":2},
+            {"name":"Ashley Meyer","g":2,"a":2},
             {"name":"Ryan Smith","g":0,"a":2},
-            {"name":"Shawn Boule","g":0,"a":1},
-            {"name":"Jordan Beck","g":2,"a":2},
-            {"name":"Josh Kent","g":4,"a":2}
+            {"name":"Shawn Boule","g":0,"a":2},
+            {"name":"Jordan Beck","g":4,"a":2},
+            {"name":"Josh Kent","g":5,"a":3}
           ]
         },
         {
@@ -105,16 +105,16 @@
           "ga": 17,
           "players": [
             {"name":"Kevin Fiore","g":0,"a":0},
-            {"name":"Dan Willis","g":0,"a":0},
+            {"name":"Dan Willis","g":0,"a":1},
             {"name":"Dan Winters","g":0,"a":2},
             {"name":"Dylan Longton","g":0,"a":1},
             {"name":"Paul Tidmarsh","g":1,"a":1},
             {"name":"Jake Miller","g":0,"a":1},
             {"name":"Alex Casino","g":0,"a":0,"goalie":true},
-            {"name":"Colin McCarthy","g":0,"a":1},
-            {"name":"Sean Cassels","g":4,"a":2},
-            {"name":"Greg \"Jr.\" Warnken","g":7,"a":1},
-            {"name":"Neil Desiderio","g":1,"a":1,"captain": true}
+            {"name":"Colin McCarthy","g":0,"a":2},
+            {"name":"Sean Cassels","g":6,"a":2},
+            {"name":"Greg \"Jr.\" Warnken","g":8,"a":2},
+            {"name":"Neil Desiderio","g":2,"a":1,"captain": true}
           ]
         },
         {
@@ -128,15 +128,15 @@
           "ga": 27,
           "players": [
             {"name":"Brian Barnes","g":0,"a":0},
-            {"name":"Kyle Cooper","g":1,"a":1},
-            {"name":"Charlie LaVilla","g":0,"a":2},
+            {"name":"Kyle Cooper","g":2,"a":2},
+            {"name":"Charlie LaVilla","g":2,"a":2},
             {"name":"Dennis Kaminsky","g":0,"a":0},
             {"name":"Joe Sgarlata","g":0,"a":1},
             {"name":"Pat Dunleavy","g":0,"a":0},
-            {"name":"Dan Minns","g":1,"a":0},
-            {"name":"Brad Kristie","g":2,"a":0,"captain": true},
+            {"name":"Dan Minns","g":2,"a":2},
+            {"name":"Brad Kristie","g":3,"a":1,"captain": true},
             {"name":"Mark \"Turtle\" Howell","g":0,"a":1},
-            {"name":"Jimmy Collins","g":3,"a":0},
+            {"name":"Jimmy Collins","g":3,"a":2},
             {"name":"Joe Spizuco","g":0,"a":0,"goalie":true}
           ]
         },
@@ -152,14 +152,14 @@
           "players": [
             {"name":"Anthony Fiore","g":1,"a":1},
             {"name":"Nick Maccracken","g":0,"a":0},
-            {"name":"Matt Russell","g":1,"a":6},
+            {"name":"Matt Russell","g":2,"a":7},
             {"name":"Rick Boni","g":1,"a":0},
             {"name":"Adam Cowie","g":0,"a":4},
             {"name":"Chris Kugler","g":2,"a":1,"captain": true},
-            {"name":"Josh Daigle","g":4,"a":0},
+            {"name":"Josh Daigle","g":6,"a":0},
             {"name":"Zach Eck","g":0,"a":0},
             {"name":"Cliff Eck","g":2,"a":2},
-            {"name":"Steve Beyer","g":1,"a":1},
+            {"name":"Steve Beyer","g":1,"a":2},
             {"name":"Austin McCrum","g":0,"a":0,"goalie":true}
           ]
         },
@@ -173,16 +173,16 @@
           "gf": 28,
           "ga": 17,
           "players": [
-            {"name":"Toby Pettinelli","g":0,"a":1},
-            {"name":"Tim Stocker","g":1,"a":2},
-            {"name":"Mark Stocker","g":6,"a":4,"captain": true},
+            {"name":"Toby Pettinelli","g":0,"a":3},
+            {"name":"Tim Stocker","g":1,"a":3},
+            {"name":"Mark Stocker","g":6,"a":5,"captain": true},
             {"name":"Mike Lashway","g":0,"a":0},
-            {"name":"Samantha Longo","g":1,"a":2},
-            {"name":"Reilly Moak","g":3,"a":3},
-            {"name":"Macks Keado","g":5,"a":6},
+            {"name":"Samantha Longo","g":1,"a":3},
+            {"name":"Reilly Moak","g":5,"a":3},
+            {"name":"Macks Keado","g":6,"a":6},
             {"name":"Dylan Hack","g":1,"a":0},
-            {"name":"Mark Gimenza","g":1,"a":2},
-            {"name":"Ryan Cummings","g":2,"a":9},
+            {"name":"Mark Gimenza","g":1,"a":4},
+            {"name":"Ryan Cummings","g":3,"a":9},
             {"name":"Chelsea Callain","g":0,"a":0,"goalie":true}
           ]
         }
