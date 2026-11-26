@@ -94,7 +94,7 @@ function renderTeams(){
       <p class="small-muted">GF: ${t.gf} • GA: ${t.ga} • GD: ${t.gf - t.ga}</p>
       <details>
         <summary>Player Stats</summary>
-        <ul>${[...t.players].sort((a,b)=>(a.goalie?1:0)-(b.goalie?1:0) || (b.g+b.a)-(a.g+a.a)).map(p=>`<li>${playerLink(p.name)}${p.captain? ' <img src="captain.png" class="captain" alt="Captain">':''}${p.goalie? ' <span class="goalie-tag">(G)</span>':` — ${p.g}G ${p.a}A (${p.g+p.a} Pts)`}</li>`).join('')}</ul>
+        <ul>${[...t.players].sort((a,b)=>(a.goalie?1:0)-(b.goalie?1:0) || (b.g+b.a)-(a.g+a.a) || b.g-a.g).map(p=>`<li>${playerLink(p.name)}${p.captain? ' <img src="captain.png" class="captain" alt="Captain">':''}${p.goalie? ' <span class="goalie-tag">(G)</span>':` — ${p.g}G ${p.a}A (${p.g+p.a} Pts)`}</li>`).join('')}</ul>
       </details>
     `;
     grid.appendChild(div);
